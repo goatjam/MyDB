@@ -1,0 +1,8 @@
+MyDB.php v1.0 - A simple mysql persistence class for PHP
+
+Copyright Brett Glasson <brett.glasson@zoho.com> 2018
+
+I created this for my own personal use because I didn't want to
+use the more complicated persistence frameworks such as symfony or
+doctrine. If your project is very large you probably dont want to
+use this, otherwise enjoy!

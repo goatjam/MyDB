@@ -206,7 +206,7 @@ class MyDB
       $s = $this->prepare("INSERT INTO ".$table." (".$fields.") VALUES (".$placeholders.")");
 
       $this->execute($s,$criteria);
-      return $this->lastInsertId();
+      return $this->get($this->lastInsertId(),$table);
     }
     else // <------ UPDATE ------->
     {
@@ -228,7 +228,7 @@ class MyDB
       $s = $this->prepare("UPDATE ".$table." SET ".$updatestring." WHERE id = ".$id);
 
       if($this->execute($s,$criteria))
-        return $id;
+        return $this->get($id,$table);
     }
   }
 

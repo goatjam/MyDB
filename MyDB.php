@@ -1,6 +1,6 @@
 <?php
 /*
-  MyDB.php v1.0 - A simple mysql persistence class for PHP
+  MyDB.php v1.1 - A simple mysql persistence class for PHP
 
   Copyright Brett Glasson <brett.glasson@zoho.com> 2018
 
